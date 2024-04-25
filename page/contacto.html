@@ -63,22 +63,10 @@
                     <p>Completa el formulario a continuacion y nos pondremos en contacto!</p>
                 </div>
                 <form>
-                    <div>
-                        <label for="nombre">Nombre del usuario</label><br>
-                        <input type="text" name="nombre" id="nombre" size="40" class="campoDato" maxlength="144" required><br>
-                    </div>
-                    <div>
-                        <label for="apellido">Apellido del usuario</label><br>
-                        <input type="text" name="apellido" id="apellido" size="40" class="campoDato" maxlength="144" required><br>
-                    </div>
-                    <div>
-                        <label for="nombre">eMail del usuario</label><br>
-                        <input type="text" name="mail" id="mail" size="40" class="campoDato" maxlength="144" required><br>
-                    </div>
-                    <div>
-                        <label for="consulta">Dejanos tu consulta!</label><br>
-                        <textarea name="consulta" id="consulta" class="campoDato" rows="10" cols="40"
-                            placeoholder="Mandale mecha..."></textarea>
+                    <div class="elemForm"><input type="text" name="nombre" id="nombre" size="40" placeholder="Nombre" class="campoDato" maxlength="144" required></div>
+                    <div class="elemForm"><input type="text" name="apellido" id="apellido" size="40" placeholder="Apellido" class="campoDato" maxlength="144" required></div>
+                    <div class="elemForm"><input type="text" name="mail" id="mail" size="40" placeholder="eMail" class="campoDato" maxlength="144" required></div>
+                    <div class="elemForm"><textarea name="consulta" id="consulta" class="campoDato" rows="10" cols="40">Dejanos tu consulta!</textarea>
                     </div>
                     <div class="logBtn btn-group" role="group">
                         <button type="button" name="enviar" id="enviar" class="btn btn-secondary">Enviar</button>

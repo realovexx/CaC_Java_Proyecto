@@ -329,12 +329,14 @@ header {
     padding-top: 5%;
     padding-bottom: 20%;
 }
-
+.elemForm{
+    padding-bottom: 15px;
+}
 .campoDato{
     border: 2px solid var(--third-color);
     background-color: gray;
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 5px;
 }
 .campoDato::placeholder{
@@ -346,7 +348,7 @@ header {
     color: var(--main-color);
 }
 .logBtn{
-    padding-top: 15px;
+    padding-top: 8px;
 }
 
 .mainReg {
